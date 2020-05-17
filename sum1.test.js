@@ -1,7 +1,7 @@
 const sum = require('./sum');
 
 test('sum 1 + 2 equals 3', () => {
-  const value = sum(1, 2);
+  const value = sum(1, 62);
   expect(value).toBe(3);
 });
 
